@@ -1,0 +1,73 @@
+{
+  "classification": "SUPPORTED_BOUNDED_SHARED_PREFIX_SELECTION_WITH_BROAD_CLAIM_BLOCKED",
+  "current_validation_discovery": {
+    "labels_96_192_288_agreement_each": "3/5",
+    "label_480_agreement": "4/5",
+    "label_480_savings_fraction": 0.08333333333333333
+  },
+  "trajectory_rule": {
+    "discovery_agreement": "5/5",
+    "stress_agreement": "2/3",
+    "stress_counterexample_seed": 20260819,
+    "per_seed_savings_fraction_min": 0.25,
+    "per_seed_savings_fraction_max": 0.25
+  },
+  "freeze_thaw_envelope": {
+    "discovery_decisions_correct": "3/3",
+    "discovery_abstentions": "2/5",
+    "decision_labels": [480, null, null, 480, 480],
+    "cohort_updates": 5472,
+    "mean_updates": 1094.4,
+    "savings_fraction": 0.05,
+    "budget_gate_passed": false,
+    "stress_rows_read": false,
+    "classification": "BOUNDED_NEGATIVE"
+  },
+  "midpoint_prefix_branch": {
+    "deployed_updates": 864,
+    "two_full_arm_updates": 1152,
+    "savings_fraction": 0.25,
+    "tiny_exact_branch_smoke": true,
+    "historical_shared_prefix_branch_endpoints": 0,
+    "loocv_accuracy": "NOT_ESTIMABLE",
+    "path_dependence_uncertainty": "NOT_CALIBRATED",
+    "classification": "FEASIBLE_MECHANISM_NOT_SCIENTIFICALLY_EARNED"
+  },
+  "continuation_smoke": {
+    "mlx": "0.31.2",
+    "mlx_lm": "0.31.3",
+    "parameter_max_abs_delta": 0.0,
+    "optimizer_max_abs_delta": 0.0,
+    "mx_rng_max_abs_delta": 0.0,
+    "numpy_rng_equal": true,
+    "batch_order_equal": true,
+    "scope": "tiny model, not Qwen"
+  },
+  "qwen_exact_resume": {
+    "classification": "SUPPORTED_BOUNDED_EXACT_EQUIVALENCE",
+    "scope": "12-update token-mean Qwen3-0.6B-3bit MLX LoRA, seed 20260861, one local environment",
+    "all_validity_checks": true,
+    "all_equivalent": true,
+    "fresh_resume_process": true,
+    "max_train_loss_delta": 0.0,
+    "max_state_tensor_delta": 0.0,
+    "result_sha256": "4922fdeef3fd76af84d1ab33b50dcbeb0d8bf5de7706690b77466c992dfcff11",
+    "selection_claim_changed": false
+  },
+  "prospective_shared_prefix": {
+    "primary_classification": "SUPPORTED_BOUNDED_SHARED_PREFIX_SELECTION",
+    "fresh_seeds": [20260882, 20260883, 20260884],
+    "validation_agreement": "3/3",
+    "selector_updates_per_seed": 864,
+    "baseline_updates_per_seed": 1152,
+    "savings_fraction": 0.25,
+    "exact_95pct_clopper_pearson": [0.2924017738212866, 1.0],
+    "test_data_read_before_primary_lock": false,
+    "post_primary_any_validation_or_test_reversal": true,
+    "broad_selector_claim_blocked": true,
+    "primary_lock_sha256": "c4825fddbd59bf858823a34f552ee052a224113a02db0306184c52b579774db6",
+    "result_sha256": "5c40c3a1cb64739de3c5a4479468f1d6b04b6dc77a5d4dc22e92c088e81dbc84"
+  },
+  "qwen_confirmation_run": true,
+  "model_slot_released": true
+}

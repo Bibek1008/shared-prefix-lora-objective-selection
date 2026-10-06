@@ -1,0 +1,18 @@
+{
+  "schema": "es007-independent-final-audit-summary-v1",
+  "verdict": "PASS",
+  "stage_count": 29,
+  "training_receipts": 15,
+  "test_receipts": 12,
+  "all_training_before_primary_lock": true,
+  "all_tests_after_primary_lock": true,
+  "primary_lock_sha256": "c4825fddbd59bf858823a34f552ee052a224113a02db0306184c52b579774db6",
+  "result_sha256": "5c40c3a1cb64739de3c5a4479468f1d6b04b6dc77a5d4dc22e92c088e81dbc84",
+  "selector_updates_per_seed": 864,
+  "baseline_updates_per_seed": 1152,
+  "savings_fraction": 0.25,
+  "validation_agreement": "3/3",
+  "broad_selector_claim_blocked": true,
+  "model_loaded_by_auditor": false,
+  "scope": "Separate-owner audit of recorded ES-007 execution and bounded claim; not an independent experimental replication."
+}
